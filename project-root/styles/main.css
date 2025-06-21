@@ -1,0 +1,12 @@
+/* Example custom CSS overrides */
+.gold-text { color: #D4AF37; }
+.gold-accent { color: #B08D57; }
+.gold-border { border-color: #D4AF37; }
+.btn-primary { background-color: #D4AF37; color: #121212; }
+.btn-primary:hover { background-color: #c09b30; }
+.btn-secondary { background-color: transparent; border: 2px solid #D4AF37; color: #D4AF37; }
+.btn-secondary:hover { background-color: #D4AF37; color: #121212; }
+.section-padding { padding: 4rem 1rem; }
+@media (min-width: 768px) { .section-padding { padding: 6rem 2rem; } }
+
+/* Video background styles handled inline in HTML with object-cover */

@@ -1,0 +1,13 @@
+{
+  "name": "revyve-static-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles/input.css -o ./styles/main.css --minify",
+    "watch:css": "tailwindcss -i ./styles/input.css -o ./styles/main.css --watch",
+    "build": "npm run build:css"
+    /* If you have more build steps later, append here */
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.x"
+  }
+}
